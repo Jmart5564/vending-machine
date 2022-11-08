@@ -9,7 +9,6 @@ function vendingMachine (item: number, payment: number) {
   const dimeString = 'Dimes:'
   const nickelString = 'Nickels:'
   const pennyString = 'Pennies:'
-  // declare object
 
   while (remainingChange >= 25) {
     remainingChange -= 25

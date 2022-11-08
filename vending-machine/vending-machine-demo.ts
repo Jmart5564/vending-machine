@@ -28,3 +28,7 @@ if (payment == null) {
   console.error('--payment is required but not provided. Exiting.')
   process.exit(2)
 }
+if (payment < cost) {
+  console.error('I NEED MORE MONEY!')
+  process.exit(3)
+}
