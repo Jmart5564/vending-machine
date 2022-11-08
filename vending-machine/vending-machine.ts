@@ -27,18 +27,6 @@ function vendingMachine (item: number, payment: number) {
     remainingChange -= 1
     penny++
   }
-  //   if (quarter > 0) {
-  //     console.log(`Quarters: ${quarter}`)
-  //   }
-  //   if (dime > 0) {
-  //     console.log(`Dimes: ${dime}`)
-  //   }
-  //   if (nickel > 0) {
-  //     console.log(`Nickels: ${nickel}`)
-  //   }
-  //   if (penny > 0) {
-  //     console.log(`Pennies: ${penny}`)
-  //   }
   console.log('Quarters:', quarter)
   console.log(dimeString.padEnd(9, ' '), dime)
   console.log(nickelString.padEnd(9, ' '), nickel)
@@ -46,5 +34,3 @@ function vendingMachine (item: number, payment: number) {
 }
 
 vendingMachine(5.47, 7)
-
-// create format function
