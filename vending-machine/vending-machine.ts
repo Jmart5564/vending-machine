@@ -1,5 +1,5 @@
 
-function vendingMachine (item: number, payment: number) {
+export default function vendingMachine (item: number, payment: number) {
   const change = Math.floor((payment - item) * 100)
   let quarter = 0
   let dime = 0
@@ -32,4 +32,4 @@ function vendingMachine (item: number, payment: number) {
   console.log(pennyString.padEnd(9, ' '), penny)
 }
 
-vendingMachine(5.47, 7)
+vendingMachine(0.59, 1)
